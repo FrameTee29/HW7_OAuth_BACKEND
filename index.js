@@ -20,8 +20,8 @@ app.use(session({
 app.use('/api', bodyParser.json(), router);   //[use json]
 app.use('/api', bodyParser.urlencoded({ extended: false }), router);
 let bears = [
-    { 'id': 0, 'name': 'pooh', 'weight': 211, 'img': 'https://lumiere-a.akamaihd.net/v1/images/c94eed56a5e84479a2939c9172434567c0147d4f.jpeg?region=0,0,600,600' },
-    { 'id': 1, 'name': 'vinnie', 'weight': 111, 'img': 'https://cdn2.mhpbooks.com/2018/07/winnie_pooh_PNG37592.png' },
+    { 'id': 0, 'name': 'park min young', 'weight': 6035512080, 'img': 'https://asianwiki.com/images/8/82/Park_Min-Young-1986-p1.jpg' },
+    { 'id': 1, 'name': 'bae suzy', 'weight': 6035512100, 'img': 'https://i.mydramalist.com/E2Xybc.jpg' },
 ];
 
 router.route('/bears')
